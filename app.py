@@ -27,7 +27,7 @@ docsearch = PineconeVectorStore.from_existing_index(
     embedding=embeddings
 )
 
-retriever = docsearch.as_retriever(search_type= "similarity", search_kwargs= {"k":5})
+retriever = docsearch.as_retriever(search_type= "similarity", search_kwargs= {"k":3})
 
 # Initialize the Together LLM
 llm = Together(
