@@ -39,7 +39,7 @@ python store_index.py
 ```
 
 ```bash
-# Finally run the following command
+# Finally run the following command in your root
 python app.py
 ```
 
